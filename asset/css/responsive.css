@@ -1,0 +1,94 @@
+@media only screen and (max-width:1199px) {
+     .higher-box {
+    padding-top: 122px;
+}
+}
+
+
+@media only screen and (max-width:991px) {
+
+    .menubar > ul > li > a {
+        padding: 5px !important;
+    }
+    .slider-count-box span{
+        margin-top: 10px;
+    }
+    .copyright .copy-left {
+    width: 570px;
+}
+   
+
+}
+
+@media only screen and (max-width:767px) {
+
+    .logo {
+        display: inline-block;
+    }
+
+    .sub-btn a span {
+        padding: 0 6px;
+    }
+
+    .sub-menu > a {
+        font-size: 14px;
+    }
+    .copyright .copy-left {
+    width: 801px;
+    }
+    .banner-content h1 {
+    font-size: 50px;
+    line-height: 66px;
+    }
+    .banner .prev {
+        display: none !important;
+    }
+    .banner .next {
+        display: none !important;
+    }
+
+}
+
+@media only screen and (max-width:575px) {
+    body {
+        font-size: 14px;
+    }
+    .footer-head h6 {
+        font-size: 16px;
+    }
+    .footer-head ul li a {
+        font-size: 14px;
+    }
+    .mobileAdd {
+        left: 0 !important;
+        width: 100%;
+    }
+    .banner-content h1 {
+    font-size: 45px;
+    line-height: 60px;
+    }
+    .higher-head h4 {
+    font-size: 31px;
+    line-height: 44px;
+    }
+    .copyright-p{
+        border-bottom: 1px solid var(--wc);
+        padding-bottom: 5px;
+    }
+    .contact-head h4 {
+    font-size: 28px;
+    }
+    .contact-icons i {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    font-size: 14px;
+}
+    .bradcrumb-section a{
+        font-size: 14px;
+    }
+    .bradcrumb-section span{
+        font-size: 14px;
+    }
+
+}

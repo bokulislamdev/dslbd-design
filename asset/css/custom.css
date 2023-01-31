@@ -1,0 +1,105 @@
+:root {
+    --pc: #424242;
+    --sc: #fc5b3f;
+    --wc: #ffffff;
+    --bc: #000000;
+    --gc: #9A9EB3;
+}
+
+@font-face {
+  font-family: system-ui;
+  src: url(../asset/fonts/fa-brands-400.woff);
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--pc);
+    background: #F5F5F5;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    line-height: 24px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--pc);
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--pc);
+}
+
+button {
+    border: none;
+}
+
+
+.custom-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+}
+
+.custom-row::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.section-title h4 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 42px;
+    color: var(--pc2);
+}
+
+.section-title p {
+    max-width: 512px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 auto;
+}
+
+.uptoscroll{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(22,22,26,.7);
+    box-shadow: 0 1px 0 0 rgb(255 255 255 / 10%);
+}
